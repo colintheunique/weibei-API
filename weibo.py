@@ -279,7 +279,6 @@ class _Executable(object):
 
     def __str__(self):
         return '_Executable (%s %s)' % (self._method, self._path)
-
     __repr__ = __str__
 
 class _Callable(object):
